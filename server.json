@@ -1,0 +1,74 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Creme hidratante facial",
+      "price": 50.00,
+      "discount": 0.10,
+      "image": "https://www.farmasesi.com.br/estatico/sesi/images/temp/222_16527.png"
+    },
+    {
+      "id": 2,
+      "name": "Protetor solar FPS 50",
+      "price": 35.00,
+      "discount": 0.05,
+      "image": "https://www.farmasesi.com.br/estatico/sesi/images/temp/222_16527.png"
+    },
+    {
+      "id": 3,
+      "name": "Esfoliante facial",
+      "price": 28.00,
+      "discount": 0.0,
+      "image": "https://www.farmasesi.com.br/estatico/sesi/images/temp/222_16527.png"
+    },
+    {
+      "id": 4,
+      "name": "Máscara facial de argila",
+      "price": 40.00,
+      "discount": 0.20,
+      "image": "https://www.farmasesi.com.br/estatico/sesi/images/temp/222_16527.png"
+    },
+    {
+      "id": 5,
+      "name": "Tônico facial",
+      "price": 25.00,
+      "discount": 0.0,
+      "image": "https://www.farmasesi.com.br/estatico/sesi/images/temp/222_16527.png"
+    },
+    {
+      "id": 6,
+      "name": "Óleo facial para hidratação",
+      "price": 60.00,
+      "discount": 0.15,
+      "image": "https://www.farmasesi.com.br/estatico/sesi/images/temp/222_16527.png"
+    },
+    {
+      "id": 7,
+      "name": "Sabonete facial para pele oleosa",
+      "price": 18.00,
+      "discount": 0.0,
+      "image": "https://www.farmasesi.com.br/estatico/sesi/images/temp/222_16527.png"
+    },
+    {
+      "id": 8,
+      "name": "Sérum anti-idade",
+      "price": 75.00,
+      "discount": 0.25,
+      "image": "https://www.farmasesi.com.br/estatico/sesi/images/temp/222_16527.png"
+    },
+    {
+      "id": 9,
+      "name": "Creme para área dos olhos",
+      "price": 30.00,
+      "discount": 0.0,
+      "image": "https://www.farmasesi.com.br/estatico/sesi/images/temp/222_16527.png"
+    },
+    {
+      "id": 10,
+      "name": "Água micelar",
+      "price": 20.00,
+      "discount": 0.0,
+      "image": "https://www.farmasesi.com.br/estatico/sesi/images/temp/222_16527.png"
+    }
+  ]
+}
