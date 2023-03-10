@@ -12,11 +12,10 @@ export const CartProvider = ({children}) => {
 
   const [cart, setCart] = useState([])
 
-  console.log(cart)
+
   const addProduct = (product, observations, amount, priceWithDiscount) => {
 
-    console.log(product.price * amount)
-    const result = generateDiscount(product.price * amount, product.discount)
+    console.log("o desconto é ", product.discount)
 
     const data = {
       itemId: uuidv4(),
@@ -24,8 +23,8 @@ export const CartProvider = ({children}) => {
       priceWithDiscount: priceFormat(priceWithDiscount),
       observations,
       amount,
-      subTotal: result.valorComDesconto,
-      subTotalFormatted: priceFormat(result.valorComDesconto)
+      subTotal: priceWithDiscount * amount,
+      subTotalFormatted: priceFormat(priceWithDiscount * amount)
     }
 
     setCart([...cart, data])
