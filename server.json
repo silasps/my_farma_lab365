@@ -4,8 +4,8 @@
       "id": 1,
       "name": "Creme hidratante facial",
       "price": 50.00,
-      "discount": 0.10,
-      "image": "https://www.farmasesi.com.br/estatico/sesi/images/temp/222_16527.png"
+      "discount": 5.0,
+      "image": "https://www.farmasesi.com.br/estatico/sesi/images/produto/16534.png"
     },
     {
       "id": 2,
@@ -19,7 +19,7 @@
       "name": "Esfoliante facial",
       "price": 28.00,
       "discount": 0.0,
-      "image": "https://www.farmasesi.com.br/estatico/sesi/images/temp/222_16527.png"
+      "image": "https://www.farmasesi.com.br/estatico/sesi/images/produto/16534.png"
     },
     {
       "id": 4,

@@ -7,13 +7,20 @@ import 'react-toastify/dist/ReactToastify.css';
 
 import './App.css';
 import { ToastContainer } from 'react-toastify';
+import { CartProvider } from './contexts/CartContext';
+import { ThemeProvider } from './contexts/ThemeContext';
+
 
 function App() {
   return (
     <BrowserRouter>
-      <Menu />
-      <AppRoutes />
-      <ToastContainer />
+      <ThemeProvider>
+        <CartProvider>
+          <Menu />
+          <AppRoutes />
+          <ToastContainer />
+        </CartProvider>
+      </ThemeProvider>
     </BrowserRouter>
   );
 }

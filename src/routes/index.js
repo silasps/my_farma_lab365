@@ -11,6 +11,7 @@ const AppRoutes = () => {
       <Route path="/" element={<Home />} />
       <Route path="carrinho" element={<Cart />} />
       <Route path="detalhes" element={<Details />} />
+      {/*  <Route path="*" element={() => <h1>teste</h1>} /> */}
     </Routes>
   );
 }

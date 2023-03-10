@@ -1,8 +1,9 @@
 import React, { useEffect, useState } from "react";
 import { toast } from "react-toastify";
+import { productsAction } from "../../actions/products.action";
 
 import CardProduct from "../../components/CardProduct";
-import api from "../../services/api";
+
 import { priceFormat } from '../../utils/priceFormat'
 
 const Home = () => {
@@ -10,7 +11,7 @@ const Home = () => {
 
   const getProducts = async () => {
 
-    api.get('/products')
+    productsAction.getProducts()
     .then(response => {
       setProducts(response.data.map(item => ({
         ...item,
@@ -20,7 +21,6 @@ const Home = () => {
     .catch(() => toast.error('Houve um erro ao retornar os produtos'))
 
     /*
-
     fetch('http://localhost:3333/products')
       .then(async (response) => {
         const data = await response.json()
@@ -38,18 +38,15 @@ const Home = () => {
     getProducts();
   }, [])
 
-  console.log(products)
   return (
     <div>
       <div className="main-container">
-        <div className="products-list">
+        <div className="products-list" data-testid="products-list">
           {
             products.map((product) => (
               <CardProduct
                 key={product.id}
-                name={product.name}
-                price={product.priceFormatted}
-                image={product.image}
+                product={product}
               />
             ))
           }
